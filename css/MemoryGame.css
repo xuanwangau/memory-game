@@ -238,7 +238,72 @@ body {
   background-size: cover;
 }
 
+/*USING FAMILY PHOTOS AS CARD IMAGES*/
 .back.card-1 {
+  background-image: url(../images/family/birthday.png);
+}
+.back.card-2 {
+  background-image: url(../images/family/brushteeth.png);
+}
+.back.card-3 {
+  background-image: url(../images/family/cafe.png);
+}
+.back.card-4 {
+  background-image: url(../images/family/canberra.png);
+}
+.back.card-5 {
+  background-image: url(../images/family/canola.png);
+}
+.back.card-6 {
+  background-image: url(../images/family/chestnut.png);
+}
+.back.card-7 {
+  background-image: url(../images/family/eatcorn.png);
+}
+.back.card-8 {
+  background-image: url(../images/family/fairywheel.png);
+}
+.back.card-9 {
+  background-image: url(../images/family/fenghuang.png);
+}
+.back.card-10 {
+  background-image: url(../images/family/ice.png);
+}
+.back.card-11 {
+  background-image: url(../images/family/jenolan.png);
+}
+.back.card-12 {
+  background-image: url(../images/family/lock.png);
+}
+.back.card-13 {
+  background-image: url(../images/family/scenicworld.png);
+}
+.back.card-14 {
+  background-image: url(../images/family/seal.png);
+}
+.back.card-15 {
+  background-image: url(../images/family/theentrance.png);
+}
+
+/** Matching Cards **/
+/**
+ * If you wish to have custom matching images, you can do so
+ * by leveraging the 'matching' class which is added to one
+ * of the matching cards. See the example below.
+ *
+ * .back.card-1 {
+ *   background-image: url(../images/fruits/apple_1.jpg);
+ * }
+ *
+ * .back.matching.card-1 {
+ *   background-image: url(../images/fruits/apple_2.jpg);
+ * }
+ *
+ */
+
+ /* ORIGINAL IMAGES USED IN CSS*/
+ /*
+ .back.card-1 {
   background-image: url(../images/fruits/apple.jpg);
 }
 .back.card-2 {
@@ -283,19 +348,5 @@ body {
 .back.card-15 {
   background-image: url(../images/fruits/strawberry.jpg);
 }
+*/
 
-/** Matching Cards **/
-/**
- * If you wish to have custom matching images, you can do so
- * by leveraging the 'matching' class which is added to one
- * of the matching cards. See the example below.
- *
- * .back.card-1 {
- *   background-image: url(../images/fruits/apple_1.jpg);
- * }
- *
- * .back.matching.card-1 {
- *   background-image: url(../images/fruits/apple_2.jpg);
- * }
- *
- */
